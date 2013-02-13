@@ -14,7 +14,7 @@
   </organization>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <bukkit.version>1.4.6-R0.3-SNAPSHOT</bukkit.version>
+    <bukkit.version>1.4.7-R0.2-SNAPSHOT</bukkit.version>
     <currentYear>2012</currentYear>
   </properties>
   <issueManagement>
@@ -58,11 +58,6 @@
       <groupId>commons-lang</groupId>
       <artifactId>commons-lang</artifactId>
       <version>[2.0,]</version>
-    </dependency>
-    <dependency>
-      <groupId>org.bukkit</groupId>
-      <artifactId>bukkit</artifactId>
-      <version>${bukkit.version}</version>
     </dependency>
     <dependency>
       <groupId>org.bukkit</groupId>
@@ -133,6 +128,14 @@
       <scope>system</scope>
       <systemPath>${project.basedir}/lib/Factions.jar</systemPath>
     </dependency>
+    <dependency>
+        <groupId>net.milkbowl.vault</groupId>
+        <artifactId>Vault</artifactId>
+        <version>1.2.19</version>
+        <type>jar</type>
+        <scope>system</scope>
+  		<systemPath>${project.basedir}/lib/Vault.jar</systemPath>
+    </dependency> 
   </dependencies>
   <build>
     <defaultGoal>clean install</defaultGoal>

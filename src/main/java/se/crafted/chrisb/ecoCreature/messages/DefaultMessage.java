@@ -98,11 +98,11 @@ public class DefaultMessage implements Message
 
         String itemName = itemNameBuilder.toString();
         if (itemName.trim().equals("Air")) {
-            itemName = "Fists";
+            itemName = "Poings";
         }
 
         if (itemName.trim().equals("Bow")) {
-            itemName = "Bow & Arrow";
+            itemName = "Arc & Flèches";
         }
 
         return itemName.trim();
