@@ -102,7 +102,7 @@ public class DefaultMessage implements Message
         }
 
         if (itemName.trim().equals("Bow")) {
-            itemName = "Arc & Flèches";
+            itemName = "Arc & FlÃ¨ches";
         }
 
         return itemName.trim();
