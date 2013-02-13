@@ -78,6 +78,8 @@
       <groupId>com.sk89q</groupId>
       <artifactId>worldguard</artifactId>
       <version>5.4</version>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/lib/WorldGuard.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.garbagemule.MobArena</groupId>
